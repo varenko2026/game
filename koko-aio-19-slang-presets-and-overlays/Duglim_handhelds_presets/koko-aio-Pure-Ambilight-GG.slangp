@@ -1,0 +1,11 @@
+# // SOME RIGHTS RESERVED - RELEASED UNDER CC BY NC ND LICENSE https://creativecommons.org/licenses/by-nc-nd/4.0/deed
+# // ----------------------------------------------------------------------------------------------------------------
+
+#reference "Monitor-Pure-Ambilight-Handheld-Base.slangp"
+
+GLOBAL_OFFX = "0.001500"
+GLOBAL_OFFY = "0.003000"
+GLOBAL_ZOOM = "0.666501"
+
+ASPECT_X = "0.000000"
+AMBI_STRETCH = "0.150000"

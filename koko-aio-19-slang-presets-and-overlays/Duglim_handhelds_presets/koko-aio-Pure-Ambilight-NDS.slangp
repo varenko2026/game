@@ -1,0 +1,32 @@
+# // SOME RIGHTS RESERVED - RELEASED UNDER CC BY NC ND LICENSE https://creativecommons.org/licenses/by-nc-nd/4.0/deed
+# // ----------------------------------------------------------------------------------------------------------------
+
+#reference "Monitor-Pure-Ambilight-Handheld-Base.slangp"
+
+DO_GLOBAL_SHZO = "1.000000"
+GLOBAL_OFFY = "-0.000500"
+GLOBAL_ZOOM = "0.909003"
+
+DO_GAME_GEOM_OVERRIDE = "0.000000"
+ASPECT_X = "-5.000000"
+
+DO_DOT_MATRIX = "0.000000"
+
+IN_GLOW_POWER = "1.200000"
+BRIGHTNESS = "-0.020000"
+
+DO_PIXELGRID = "1.000000"
+PIXELGRID_OVERMASK = "0.900000"
+DO_PIXELGRID_H = "0.500000"
+DO_PIXELGRID_W = "1.000000"
+PIXELGRID_H_PRST = "2.000000"
+PIXELGRID_Y_MASK_SHIFT = "0.010000"
+
+AMBI_FALLOFF = "0.300000"
+AMBI_INT_OFFSET = "0.100000"
+AMBI_STRETCH = "0.600000"
+AMBI_STRETCH_VERTICAL = "0.390001"
+AMBI_GAMMA = "2.000000"
+AMBI_ADD_ON_BLACK = "0.250000"
+
+MIN_LINES_INTERLACED = "0.0"

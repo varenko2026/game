@@ -1,0 +1,28 @@
+#reference "../koko-aio-ng.slangp"
+
+
+
+
+
+
+
+
+
+
+    
+ASPECT_X = "-1.000000"
+ASPECT_Y = "1.000000"
+
+
+    GAME_GEOM_INT_SCALE = "0.000000"
+	GAME_GEOM_ASPECT = "1.330000"
+	GAME_GEOM_VSHIFT = "-0.420000"
+	GAME_GEOM_HSHIFT = "-0.110000"
+	GAME_GEOM_ZOOM = "0.480000"
+
+
+
+
+	
+DO_DOT_MATRIX = "0.000000"
+

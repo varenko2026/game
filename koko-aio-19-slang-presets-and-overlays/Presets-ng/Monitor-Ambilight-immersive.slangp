@@ -1,0 +1,14 @@
+#reference "../koko-aio-19/Presets-ng/Monitor-Ambilight-immersive.slangp"
+
+
+//    Anti-moire sweet spot (adjust yourself if you have moiree)
+// PIXELGRID_H_ANTIMOIRE = "0.60"
+
+
+//    Adjust interlaced flicker intensity on 480p content
+PIXELGRID_INTR_FLICK_POWR = "0.10"
+
+
+//    Default darkening of the bezels before Ambilight. 
+//    Systems with dark bezels have individual setting.
+BG_IMAGE_NIGHTIFY  = "0.8"
