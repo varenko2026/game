@@ -1,0 +1,137 @@
+shaders = 16
+
+textures = "SamplerLUT1;SamplerLUT2;SamplerLUT3;SamplerLUT4"
+SamplerLUT1 = shaders/guest/advanced/lut/trinitron-lut.png
+SamplerLUT1_linear = true
+SamplerLUT2 = shaders/guest/advanced/lut/inv-trinitron-lut.png
+SamplerLUT2_linear = true
+SamplerLUT3 = shaders/guest/advanced/lut/nec-lut.png
+SamplerLUT3_linear = true
+SamplerLUT4 = shaders/guest/advanced/lut/ntsc-lut.png
+SamplerLUT4_linear = true
+
+shader0 = shaders/guest/hd/stock.slang
+filter_linear0 = false
+scale_type0 = source
+scale0 = 1.0
+
+shader1 = shaders/guest/hd/stock.slang
+filter_linear1 = false
+scale_type1 = source
+scale1 = 1.0
+alias1 = StockPass
+
+shader2 = shaders/guest/hd/afterglow0.slang
+filter_linear2 = false
+scale_type2 = source
+scale2 = 1.0
+alias2 = AfterglowPass
+
+shader3 = shaders/guest/hd/pre-shaders-afterglow.slang
+filter_linear3 = false
+scale_type3 = source
+mipmap_input3 = true
+scale3 = 1.0
+alias3 = PrePass
+
+shader4 = shaders/guest/advanced/pal/pal-pass1.slang
+filter_linear4 = false
+scale_type_x4 = source
+scale_type_y4 = source
+scale_x4 = 1.0
+scale_y4 = 1.0
+float_framebuffer4 = true
+alias4 = PalPass1
+
+shader5 = shaders/guest/advanced/pal/pal-pass2.slang
+filter_linear5 = false
+scale_type_x5 = source
+scale_type_y5 = source
+scale_x5 = 4.0
+scale_y5 = 1.0
+float_framebuffer5 = true
+alias5 = PalPass2
+
+shader6 = shaders/guest/advanced/pal/pal-pass3.slang
+filter_linear6 = true
+scale_type6 = source
+scale_x6 = 0.5
+scale_y6 = 1.0
+float_framebuffer6 = true
+alias6 = PalPass3
+
+shader7 = shaders/guest/advanced/custom-fast-sharpen-pal.slang
+filter_linear7 = true
+scale_type7 = source
+scale_x7 = 1.0
+scale_y7 = 1.0
+
+shader8 = shaders/guest/hd/linearize-hd.slang
+filter_linear8 = true
+scale_type8 = source
+scale8 = 1.0
+float_framebuffer8 = true
+alias8 = LinearizePass
+
+shader9 = shaders/guest/hd/crt-guest-advanced-hd-pass1.slang
+filter_linear9 = true
+scale_type_x9 = viewport
+scale_x9 = 1.0
+scale_type_y9 = source
+scale_y9 = 1.0
+float_framebuffer9 = true
+alias9 = Pass1
+
+shader10 = shaders/guest/hd/gaussian_horizontal.slang
+filter_linear10 = true
+scale_type_x10 = absolute
+scale_x10 = 800.0
+scale_type_y10 = source
+scale_y10 = 1.0 
+float_framebuffer10 = true
+
+shader11 = shaders/guest/hd/gaussian_vertical.slang
+filter_linear11 = true
+scale_type_x11 = absolute
+scale_x11 = 800.0
+scale_type_y11 = absolute
+scale_y11 = 600.0
+float_framebuffer11 = true
+alias11 = GlowPass
+
+shader12 = shaders/guest/hd/bloom_horizontal.slang
+filter_linear12 = true
+scale_type_x12 = absolute
+scale_x12 = 800.0
+scale_type_y12 = source
+scale_y12 = 1.0 
+float_framebuffer12 = true
+
+shader13 = shaders/guest/hd/bloom_vertical.slang
+filter_linear13 = true
+scale_type_x13 = source
+scale_x13 = 1.0
+scale_type_y13 = absolute
+scale_y13 = 600.0
+float_framebuffer13 = true
+alias13 = BloomPass
+
+shader14 = shaders/guest/hd/crt-guest-advanced-hd-pass2.slang
+filter_linear14 = true
+float_framebuffer14 = true
+scale_type14 = viewport
+scale_x14 = 1.0
+scale_y14 = 1.0
+
+shader15 = shaders/guest/hd/deconvergence-hd.slang
+filter_linear15 = true
+scale_type15 = viewport
+scale_x15 = 1.0
+scale_y15 = 1.0
+
+internal_res = "1.700000"
+CP = "1.000000"
+interm = "3.000000"
+auto_res = "1.000000"
+GAMMA_INPUT = "2.200000"
+gamma_out = "2.150000"
