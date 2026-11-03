@@ -1,0 +1,73 @@
+## Koko-AIO 1.9 Pure Ambilight - No Bezels and no reflections
+
+default:
+  shader: koko-aio-19-slang-presets-and-overlays/Duglim_n100_presets/koko-aio-Pure-Ambilight
+
+# Arcade
+fbneo:
+  shader: koko-aio-19-slang-presets-and-overlays/Duglim_n100_presets/koko-aio-Pure-Ambilight
+  shader-90: koko-aio-19-slang-presets-and-overlays/Duglim_n100_presets/koko-aio-Pure-Ambilight_Vertical
+  shader-270: koko-aio-19-slang-presets-and-overlays/Duglim_n100_presets/koko-aio-Pure-Ambilight_Vertical
+mame:
+  shader: koko-aio-19-slang-presets-and-overlays/Duglim_n100_presets/koko-aio-Pure-Ambilight
+  shader-90: koko-aio-19-slang-presets-and-overlays/Duglim_n100_presets/koko-aio-Pure-Ambilight_Vertical
+  shader-270: koko-aio-19-slang-presets-and-overlays/Duglim_n100_presets/koko-aio-Pure-Ambilight_Vertical
+atomiswave:
+  shader: koko-aio-19-slang-presets-and-overlays/Duglim_n100_presets/koko-aio-Pure-Ambilight-480p
+
+# Atari
+lynx:
+  shader: koko-aio-19-slang-presets-and-overlays/Duglim_handhelds_presets/koko-aio-Pure-Ambilight-Lynx
+  shader-90: koko-aio-19-slang-presets-and-overlays/Duglim_handhelds_presets/koko-aio-Pure-Ambilight-Lynx-90
+  shader-270: koko-aio-19-slang-presets-and-overlays/Duglim_handhelds_presets/koko-aio-Pure-Ambilight-Lynx-90
+
+# Bandai
+wswan:
+  shader: koko-aio-19-slang-presets-and-overlays/Duglim_handhelds_presets/koko-aio-Pure-Ambilight-WS
+  shader-90: koko-aio-19-slang-presets-and-overlays/Duglim_handhelds_presets/koko-aio-Pure-Ambilight-WS-90
+  shader-270: koko-aio-19-slang-presets-and-overlays/Duglim_handhelds_presets/koko-aio-Pure-Ambilight-WS-90
+wswanc:
+  shader: koko-aio-19-slang-presets-and-overlays/Duglim_handhelds_presets/koko-aio-Pure-Ambilight-WSC
+  shader-90: koko-aio-19-slang-presets-and-overlays/Duglim_handhelds_presets/koko-aio-Pure-Ambilight-WSC-90
+  shader-270: koko-aio-19-slang-presets-and-overlays/Duglim_handhelds_presets/koko-aio-Pure-Ambilight-WSC-90
+
+# Nintendo
+gamecube:
+  shader: koko-aio-19-slang-presets-and-overlays/Duglim_n100_presets/koko-aio-Pure-Ambilight-480i
+gba:
+  shader: koko-aio-19-slang-presets-and-overlays/Duglim_handhelds_presets/koko-aio-Pure-Ambilight-GBA
+gbc:
+  shader: koko-aio-19-slang-presets-and-overlays/Duglim_handhelds_presets/koko-aio-Pure-Ambilight-GBC
+gb:
+  shader: koko-aio-19-slang-presets-and-overlays/Duglim_handhelds_presets/koko-aio-Pure-Ambilight-GB
+gb2players:
+  shader: koko-aio-19-slang-presets-and-overlays/Duglim_handhelds_presets/koko-aio-Pure-Ambilight-GB2players
+gbc2players:
+  shader: koko-aio-19-slang-presets-and-overlays/Duglim_handhelds_presets/koko-aio-Pure-Ambilight-GBC2players
+nds:
+  shader: koko-aio-19-slang-presets-and-overlays/Duglim_handhelds_presets/koko-aio-Pure-Ambilight-NDS
+wii:
+  shader: koko-aio-19-slang-presets-and-overlays/Duglim_n100_presets/koko-aio-Pure-Ambilight-480i
+# 3ds:
+#   shader: koko-aio-19-slang-presets-and-overlays/Duglim_handhelds_presets/koko-aio-Pure-Ambilight-3DS
+
+# Sega
+naomi:
+  shader: koko-aio-19-slang-presets-and-overlays/Duglim_n100_presets/koko-aio-Pure-Ambilight-480p
+naomi2:
+  shader: koko-aio-19-slang-presets-and-overlays/Duglim_n100_presets/koko-aio-Pure-Ambilight-480p
+dreamcast:
+  shader: koko-aio-19-slang-presets-and-overlays/Duglim_n100_presets/koko-aio-Pure-Ambilight-480i
+gamegear:
+  shader: koko-aio-19-slang-presets-and-overlays/Duglim_handhelds_presets/koko-aio-Pure-Ambilight-GG
+
+
+# SNK
+ngp:
+  shader: koko-aio-19-slang-presets-and-overlays/Duglim_handhelds_presets/koko-aio-Pure-Ambilight-NGP
+ngpc:
+  shader: koko-aio-19-slang-presets-and-overlays/Duglim_handhelds_presets/koko-aio-Pure-Ambilight-NGPC
+
+# Sony
+ps2:
+  shader: koko-aio-19-slang-presets-and-overlays/Duglim_n100_presets/koko-aio-Pure-Ambilight-480i

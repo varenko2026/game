@@ -1,0 +1,197 @@
+## Koko-AIO 1.9 Immersive - Duimon Bezels
+default:
+  shader: koko-aio-19-slang-presets-and-overlays/Duimon_additional_presets/presets_Monitor-nonimmersive/logo_TV1
+
+# Amstrad
+amstradcpc:
+  shader: koko-aio-19-slang-presets-and-overlays/Duimon_additional_presets/presets_Monitor-nonimmersive/logo_CPC464
+gx4000:
+  shader: koko-aio-19-slang-presets-and-overlays/Duimon_additional_presets/presets_Monitor-nonimmersive/logo_GX4000
+
+# Arcade
+fbneo:
+  shader: koko-aio-19-slang-presets-and-overlays/Duimon_additional_presets/presets_Monitor-nonimmersive/logo_Arcade_Horizontal
+  shader-90: koko-aio-19-slang-presets-and-overlays/Duimon_additional_presets/presets_Monitor-nonimmersive/logo_Arcade_Vertical
+  shader-270: koko-aio-19-slang-presets-and-overlays/Duimon_additional_presets/presets_Monitor-nonimmersive/logo_Arcade_Vertical
+mame:
+  shader: koko-aio-19-slang-presets-and-overlays/Duimon_additional_presets/presets_Monitor-nonimmersive/logo_Arcade_Horizontal
+  shader-90: koko-aio-19-slang-presets-and-overlays/Duimon_additional_presets/presets_Monitor-nonimmersive/logo_Arcade_Vertical
+  shader-270: koko-aio-19-slang-presets-and-overlays/Duimon_additional_presets/presets_Monitor-nonimmersive/logo_Arcade_Vertical
+atomiswave:
+  shader: koko-aio-19-slang-presets-and-overlays/Duglim_n100_presets/koko-aio-nonimmersive-arcade_Mirror
+
+# Atari
+atari2600:
+  shader: koko-aio-19-slang-presets-and-overlays/Duimon_additional_presets/presets_Monitor-nonimmersive/logo_2600
+atari800:
+  shader: koko-aio-19-slang-presets-and-overlays/Duimon_additional_presets/presets_Monitor-nonimmersive/logo_Atari_800
+atari5200:
+  shader: koko-aio-19-slang-presets-and-overlays/Duimon_additional_presets/presets_Monitor-nonimmersive/logo_5200
+atarist:
+  shader: koko-aio-19-slang-presets-and-overlays/Duimon_additional_presets/presets_Monitor-nonimmersive/logo_Atari_ST
+atari7800:
+  shader: koko-aio-19-slang-presets-and-overlays/Duimon_additional_presets/presets_Monitor-nonimmersive/logo_7800
+jaguar:
+  shader: koko-aio-19-slang-presets-and-overlays/Duimon_additional_presets/presets_Monitor-nonimmersive/logo_Jaguar
+xegs:
+  shader: koko-aio-19-slang-presets-and-overlays/Duimon_additional_presets/presets_Monitor-nonimmersive/logo_Atari_XEGS
+lynx:
+  shader: koko-aio-19-slang-presets-and-overlays/Duglim_handhelds_presets/koko-aio-nonimmersive-Lynx
+  shader-90: koko-aio-19-slang-presets-and-overlays/Duglim_handhelds_presets/koko-aio-nonimmersive-Lynx-90
+  shader-270: koko-aio-19-slang-presets-and-overlays/Duglim_handhelds_presets/koko-aio-nonimmersive-Lynx-90
+
+# Bandai
+wswan:
+  shader: koko-aio-19-slang-presets-and-overlays/Duglim_handhelds_presets/koko-aio-nonimmersive-WS
+  shader-90: koko-aio-19-slang-presets-and-overlays/Duglim_handhelds_presets/koko-aio-nonimmersive-WS-90
+  shader-270: koko-aio-19-slang-presets-and-overlays/Duglim_handhelds_presets/koko-aio-nonimmersive-WS-90
+wswanc:
+  shader: koko-aio-19-slang-presets-and-overlays/Duglim_handhelds_presets/koko-aio-nonimmersive-WSC
+  shader-90: koko-aio-19-slang-presets-and-overlays/Duglim_handhelds_presets/koko-aio-nonimmersive-WSC-90
+  shader-270: koko-aio-19-slang-presets-and-overlays/Duglim_handhelds_presets/koko-aio-nonimmersive-WSC-90
+
+# Coleco
+colecovision:
+  shader: koko-aio-19-slang-presets-and-overlays/Duimon_additional_presets/presets_Monitor-nonimmersive/logo_ColecoVision
+
+# Commodore
+c20:          # No Bezel
+  shader: koko-aio-19-slang-presets-and-overlays/Duimon_additional_presets/presets_Monitor-nonimmersive/logo_64C
+c64:
+  shader: koko-aio-19-slang-presets-and-overlays/Duimon_additional_presets/presets_Monitor-nonimmersive/logo_64C
+c128:         # No Bezel
+  shader: koko-aio-19-slang-presets-and-overlays/Duimon_additional_presets/presets_Monitor-nonimmersive/logo_64C
+cplus4:       # No Bezel
+  shader: koko-aio-19-slang-presets-and-overlays/Duimon_additional_presets/presets_Monitor-nonimmersive/logo_64C
+amiga500:
+  shader: koko-aio-19-slang-presets-and-overlays/Duimon_additional_presets/presets_Monitor-nonimmersive/logo_A500
+amiga1200:    # No Bezel
+  shader: koko-aio-19-slang-presets-and-overlays/Duimon_additional_presets/presets_Monitor-nonimmersive/logo_A500
+
+# Fujitsu
+fmtowns:
+  shader: koko-aio-19-slang-presets-and-overlays/Duimon_additional_presets/presets_Monitor-nonimmersive/logo_FM-Towns
+
+# Microsoft
+msx1:
+  shader: koko-aio-19-slang-presets-and-overlays/Duimon_additional_presets/presets_Monitor-nonimmersive/logo_MSX
+msx2:
+  shader: koko-aio-19-slang-presets-and-overlays/Duimon_additional_presets/presets_Monitor-nonimmersive/logo_MSX2
+msx2+:        # No Bezel
+  shader: koko-aio-19-slang-presets-and-overlays/Duimon_additional_presets/presets_Monitor-nonimmersive/logo_MSX2
+msxturbor:    # No Bezel
+  shader: koko-aio-19-slang-presets-and-overlays/Duimon_additional_presets/presets_Monitor-nonimmersive/logo_MSX2
+dos:
+  shader: koko-aio-19-slang-presets-and-overlays/Duimon_additional_presets/presets_Monitor-nonimmersive/logo_DOSBox
+
+# NEC
+pcengine:
+  shader: koko-aio-19-slang-presets-and-overlays/Duimon_additional_presets/presets_Monitor-nonimmersive/logo_PC_Engine
+pcenginecd:
+  shader: koko-aio-19-slang-presets-and-overlays/Duimon_additional_presets/presets_Monitor-nonimmersive/logo_PC_Engine_CD
+supergrafx:
+  shader: koko-aio-19-slang-presets-and-overlays/Duimon_additional_presets/presets_Monitor-nonimmersive/logo_SuperGrafx
+pcfx:
+  shader: koko-aio-19-slang-presets-and-overlays/Duimon_additional_presets/presets_Monitor-nonimmersive/logo_PC-FX
+pc88:
+  shader: koko-aio-19-slang-presets-and-overlays/Duimon_additional_presets/presets_Monitor-nonimmersive/logo_PC-8801
+pc98:
+  shader: koko-aio-19-slang-presets-and-overlays/Duimon_additional_presets/presets_Monitor-nonimmersive/logo_PC-9801
+
+# Nintendo
+nes:
+  shader: koko-aio-19-slang-presets-and-overlays/Duimon_additional_presets/presets_Monitor-nonimmersive/logo_NES
+fds:          # No Bezel
+  shader: koko-aio-19-slang-presets-and-overlays/Duimon_additional_presets/presets_Monitor-nonimmersive/logo_NES
+snes:
+  shader: koko-aio-19-slang-presets-and-overlays/Duimon_additional_presets/presets_Monitor-nonimmersive/logo_Super_Famicom_Alt
+snes-msu1:
+  shader: koko-aio-19-slang-presets-and-overlays/Duimon_additional_presets/presets_Monitor-nonimmersive/logo_Super_Famicom_Alt
+sgb:
+  shader: koko-aio-19-slang-presets-and-overlays/Duimon_additional_presets/presets_Monitor-nonimmersive/logo_Super_Famicom_SGB
+n64:
+  shader: koko-aio-19-slang-presets-and-overlays/Duimon_additional_presets/presets_Monitor-nonimmersive/logo_N64_Mirror
+n64dd:        # No Bezel
+  shader: koko-aio-19-slang-presets-and-overlays/Duimon_additional_presets/presets_Monitor-nonimmersive/logo_N64_Mirror
+gamecube:
+  shader: koko-aio-19-slang-presets-and-overlays/Duglim_n100_presets/koko-aio-nonimmersive-gamecube
+gba:
+  shader: koko-aio-19-slang-presets-and-overlays/Duglim_handhelds_presets/koko-aio-nonimmersive-GBA
+gbc:
+  shader: koko-aio-19-slang-presets-and-overlays/Duglim_handhelds_presets/koko-aio-nonimmersive-GBC
+gb:
+  shader: koko-aio-19-slang-presets-and-overlays/Duglim_handhelds_presets/koko-aio-nonimmersive-GB
+gb2players:
+  shader: koko-aio-19-slang-presets-and-overlays/Duglim_handhelds_presets/koko-aio-nonimmersive-GB2players
+gbc2players:
+  shader: koko-aio-19-slang-presets-and-overlays/Duglim_handhelds_presets/koko-aio-nonimmersive-GBC2players
+nds:
+  shader: koko-aio-19-slang-presets-and-overlays/Duglim_handhelds_presets/koko-aio-nonimmersive-NDS
+wii:
+  shader: koko-aio-19-slang-presets-and-overlays/Duglim_n100_presets/koko-aio-nonimmersive-wii
+# 3ds:
+#   shader: koko-aio-19-slang-presets-and-overlays/Duglim_handhelds_presets/koko-aio-nonimmersive-3DS
+
+# Sega
+naomi:
+  shader: koko-aio-19-slang-presets-and-overlays/Duglim_n100_presets/koko-aio-nonimmersive-arcade_Mirror
+naomi2:
+  shader: koko-aio-19-slang-presets-and-overlays/Duglim_n100_presets/koko-aio-nonimmersive-arcade_Mirror
+sg1000:
+  shader: koko-aio-19-slang-presets-and-overlays/Duimon_additional_presets/presets_Monitor-nonimmersive/logo_SG-1000
+mastersystem:
+  shader: koko-aio-19-slang-presets-and-overlays/Duimon_additional_presets/presets_Monitor-nonimmersive/logo_SMS
+megadrive:
+  shader: koko-aio-19-slang-presets-and-overlays/Duimon_additional_presets/presets_Monitor-nonimmersive/logo_Genesis_Alt
+sega32x:
+  shader: koko-aio-19-slang-presets-and-overlays/Duimon_additional_presets/presets_Monitor-nonimmersive/logo_SEGA32X_Alt
+segacd:
+  shader: koko-aio-19-slang-presets-and-overlays/Duimon_additional_presets/presets_Monitor-nonimmersive/logo_SEGACD_Alt
+saturn:
+  shader: koko-aio-19-slang-presets-and-overlays/Duimon_additional_presets/presets_Monitor-nonimmersive/logo_Saturn
+dreamcast:
+  shader: koko-aio-19-slang-presets-and-overlays/Duglim_n100_presets/koko-aio-nonimmersive-dreamcast_Mirror
+gamegear:
+  shader: koko-aio-19-slang-presets-and-overlays/Duglim_handhelds_presets/koko-aio-nonimmersive-GG
+
+# Sharp
+x1:
+  shader: koko-aio-19-slang-presets-and-overlays/Duimon_additional_presets/presets_Monitor-nonimmersive/logo_X1
+x68000:
+  shader: koko-aio-19-slang-presets-and-overlays/Duimon_additional_presets/presets_Monitor-nonimmersive/logo_x68000
+
+# Sinclair
+zx81:
+  shader: koko-aio-19-slang-presets-and-overlays/Duimon_additional_presets/presets_Monitor-nonimmersive/logo_ZX_Spectrum
+zxspectrum:
+  shader: koko-aio-19-slang-presets-and-overlays/Duimon_additional_presets/presets_Monitor-nonimmersive/logo_ZX_Spectrum
+
+# SNK
+neogeo:
+  shader: koko-aio-19-slang-presets-and-overlays/Duimon_additional_presets/presets_Monitor-nonimmersive/logo_NeoGeo_AES
+neogeocd:
+  shader: koko-aio-19-slang-presets-and-overlays/Duimon_additional_presets/presets_Monitor-nonimmersive/logo_NeoGeo_CD
+ngp:
+  shader: koko-aio-19-slang-presets-and-overlays/Duglim_handhelds_presets/koko-aio-nonimmersive-NGP
+ngpc:
+  shader: koko-aio-19-slang-presets-and-overlays/Duglim_handhelds_presets/koko-aio-nonimmersive-NGPC
+
+# Sony
+psx:
+  shader: koko-aio-19-slang-presets-and-overlays/Duimon_additional_presets/presets_Monitor-nonimmersive/logo_Playstation
+ps2:
+  shader: koko-aio-19-slang-presets-and-overlays/Duglim_n100_presets/koko-aio-nonimmersive-playstation2_Mirror
+
+# Other
+3do:
+  shader: koko-aio-19-slang-presets-and-overlays/Duimon_additional_presets/presets_Monitor-nonimmersive/logo_3DO
+cdi:
+  shader: koko-aio-19-slang-presets-and-overlays/Duimon_additional_presets/presets_Monitor-nonimmersive/logo_CD-i
+channelf:
+  shader: koko-aio-19-slang-presets-and-overlays/Duimon_additional_presets/presets_Monitor-nonimmersive/logo_ChannelF
+intellivision:
+  shader: koko-aio-19-slang-presets-and-overlays/Duimon_additional_presets/presets_Monitor-nonimmersive/logo_Intellivision
+thomson:
+  shader: koko-aio-19-slang-presets-and-overlays/Duimon_additional_presets/presets_Monitor-nonimmersive/logo_Thomson_T08
+ti99:
+  shader: koko-aio-19-slang-presets-and-overlays/Duimon_additional_presets/presets_Monitor-nonimmersive/logo_TI-99_4A

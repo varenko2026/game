@@ -1,0 +1,58 @@
+Changelog:
+
+v1.6.4
+- Added bezel for Amiga 500
+- New bezels for GB-2player-Immersive (thx Darknior)
+
+v1.6.3
+- Optimized presets for GB, GBC, GB-2Player, GBC-2Player, NDS
+- New bezels for GB-Immersive (thx Darknior) & GB/GBC-2Player
+- Added mirrored option for Wii
+
+v1.6.2
+- Added Wii presets (select 4:3 mode in ES)
+- Added Nintendo DS presets
+- Added GB-2Player & GBC-2Player
+
+v1.6.1
+- Changed GB-DMG colorization. Less realistic, but better for the eyes. (brighter, more contrast, etc..)
+- Changed GB-DMG bezel to have the greenish frame around the gameplay.
+
+v1.6.0
+- New shaderset: "Koko-AIO 1.9 Pure Ambilight (No Reflections & Bezels)
+- Removed all fixed shaderoptions from the Retroarch shader parameter menu to avoid user confusion, why manual changes did nothing.
+
+v1.5.0
+- Added handhelds with Koko-AIO pixelgrid shaderpresets, available in all shadersets (Immersive, Non-Immersive & Pure Ambilight). Currently covers GB, GBC, GBA, GG, NGP, NGPC, WS, WSC.
+
+v1.4.0
+- Added new horizontal & vertical Arcade bezel (Mame, FBneo, Atomiwave, Naomi, Naomi2). Same bezel artwork for all Arcades.
+- Added performance optimized presets for 480p Arcade systems (Atomiswave, Naomi) with progressive (non-interlaced) mode.
+- Unlocked formerly fixed setting PIXELGRID_Y_MASK to optimize shaderpresets for Arcade.
+
+v1.3.2
+- Added horizontal & vertical Bezels for Mame, FBneo and Atomiwave
+- Unlocked formerly fixed setting TATE to allow vertical scanlines/maskrotation in vertical games
+
+v1.3
+- Update available in the Batocera content downloader (thx Modhack)
+- Bezels of dark consoles are now a bit more visible in dark game scenes - New shaderset: „Koko-AIO 1.9 Non-Immersive Duimon Bezels“ without the Ambilight effect on Bezels. Screen reflections are still there. 
+v1.2
+- First release via Batocera content downloader (thx Modhack)
+- Minor corrections
+
+v1.1.1
+- Unfrozen IN_GLOW_W value in config-user.txt
+- Optimized sharpness on systems that use 1x scale in shaderpass1 (Gamecube, Dreamcast, PS2)
+- Updated shader to "Koko-AIO NG 1.9 Hotfix"
+
+v1.1.0
+- No more "Faster" shadersets, since the faster versions are default now for DC, GC, PS2
+- Mirrored bezels per default on N64, DC, PS2
+
+v1.0.0
+- Initial release
+- Based on the new Koko-AIO 1.9 version
+- The shader itself is included, so no dependencies to Batocera/Retroarch shader updates (means: Anyone can install and use this...)
+- Shader settings are fixed & static. No tweaking in Retroarch possible, but fastest speed (up to 20%)
+- Mirrored bezel artworks can be selected, if N64/DC/GC/PS2 should appear inverted.
